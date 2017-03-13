@@ -1,0 +1,95 @@
+V "GNAT Lib v5"
+M P W=b
+P ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_IO
+RV NO_LOCAL_ALLOCATORS
+RV NO_STANDARD_ALLOCATORS_AFTER_ELABORATION
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV SPARK_05
+
+U reorganitzador%b	reorganitzador.adb	71f2f46d NE OO SU IL
+W ada%s			ada.ads			ada.ali
+W ada.command_line%s	a-comlin.adb		a-comlin.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W llista%s		llista.adb		llista.ali
+W system.concat_2%s	s-conca2.adb		s-conca2.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+
+D ada.ads		20070406091342 3ffc8e18 ada%s
+D a-comlin.ads		20140225151544 ea62afbc ada.command_line%s
+D a-except.ads		20140730140058 5250cb69 ada.exceptions%s
+D a-inteio.ads		20070406091342 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20140225151544 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20141120112812 119b8fb3 ada.streams%s
+D a-tags.ads		20140730140058 dc4d0634 ada.tags%s
+D a-textio.ads		20140717063745 386df5d4 ada.text_io%s
+D a-tiinio.ads		20140717063513 aa04e5d6 ada.text_io.integer_io%s
+D a-unccon.ads		20070406091342 f9eb8f06 ada.unchecked_conversion%s
+D interfac.ads		20141120112812 6033a23f interfaces%s
+D i-cstrea.ads		20140801100435 e53d8b8e interfaces.c_streams%s
+D llista.ads		20170312180515 88b6ce63 llista%s
+D llista.adb		20170312180458 f04f068c llista%b
+D reorganitzador.adb	20170312180506 dd00e9c2 reorganitzador%b
+D system.ads		20141031112219 1d274481 system%s
+D s-conca2.ads		20140225151544 02a0d7d0 system.concat_2%s
+D s-crtl.ads		20141120112812 0ebbdb71 system.crtl%s
+D s-exctab.ads		20140225151139 54135002 system.exception_table%s
+D s-ficobl.ads		20140718105747 078245e4 system.file_control_block%s
+D s-imgint.ads		20090409150019 02dbe0c2 system.img_int%s
+D s-parame.ads		20140801093848 7e2a0d7f system.parameters%s
+D s-soflin.ads		20140801100131 aa763b52 system.soft_links%s
+D s-stache.ads		20140225151139 a37c21ec system.stack_checking%s
+D s-stalib.ads		20150220094550 fa0a3617 system.standard_library%s
+D s-stoele.ads		20140225151139 2dc34a04 system.storage_elements%s
+D s-traent.ads		20140730135025 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20140731130224 9d58a4c0 system.unsigned_types%s
+D s-wchcon.ads		20140718092328 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 19e8 15|1r6 1r24 1r37 2r5 2r23 2r36
+X 2 a-comlin.ads
+38K13*Command_Line 139e21 15|1w10 2r9
+X 4 a-inteio.ads
+18K13*Integer_Text_IO[9|46] 15|1w41 2r40
+X 8 a-textio.ads
+49K13*Text_IO 471e16 15|1w28 2r27
+52P9*File_Type 15|27r15
+53n23*In_File{53E9} 15|33r41 48r41
+92U14*Open 15|32s9 47s9
+93p7 File{52P9} 15|32r15 47r15
+94e7 Mode{53E9} 15|33r33 48r33
+95a7 Name{string} 15|34r33 49r33
+98U14*Close 15|43s9 64s9
+183V13*End_Of_File{boolean} 15|38s27 53s27
+242U14*Put 15|19s25
+263U14*Put_Line 15|21s17 59s17
+X 9 a-tiinio.ads
+51U14*Get 15|39s17[4|18] 55s17[4|18]
+X 13 llista.ads
+5+14 item 15|8r45
+10k9*llista 40e11 15|4w6 8r38
+11R14 list 15|12r37[8] 25r13[8]
+14U19 insert 15|40s17[8]
+16U19 dis_order 15|57s17[8]
+19V18 get_item{integer} 15|18s31[8]
+21V18 get_size{integer} 15|16s24[8]
+X 15 reorganitzador.adb
+6U11*reorganitzador 6b11 66l5 66t19
+8K17 llistaInteger[13|10] 9r13
+12U19 print_list 12b19 12>30 23l13 23t23 60s17
+12r30 li{13|11R14[8]} 16r33 18r40
+13i17 num{integer} 18m25 19r29
+14i17 size{integer} 16m17 17r29
+17i21 i{integer} 18r44
+25r9 li{13|11R14[8]} 40m24 40r24 57m27 57r27 60r28
+26i9 num{integer} 39m27 40r28 55m27 57r31 59r45
+27p9 File{8|52P9} 32m23 32r23 38r39 39r21 43m15 43r15 47m23 47r23 53r39 55r21
+. 64m15 64r15
+

@@ -1,0 +1,102 @@
+V "GNAT Lib v5"
+M P W=b
+P SS ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV SPARK_05
+
+U calculadora%b		calculadora.adb		3e4d50e9 NE OO SU IL
+W ada%s			ada.ads			ada.ali
+W ada.command_line%s	a-comlin.adb		a-comlin.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W dstack%s		dstack.adb		dstack.ali
+W interfaces%s		interfac.ads		interfac.ali
+W system%s		system.ads		system.ali
+W system.concat_2%s	s-conca2.adb		s-conca2.ali
+W system.exception_table%s  s-exctab.adb	s-exctab.ali
+W system.exp_int%s	s-expint.adb		s-expint.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W system.val_int%s	s-valint.adb		s-valint.ali
+
+D ada.ads		20070406091342 3ffc8e18 ada%s
+D a-comlin.ads		20140225151544 ea62afbc ada.command_line%s
+D a-except.ads		20140730140058 5250cb69 ada.exceptions%s
+D a-ioexce.ads		20140225151544 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20141120112812 119b8fb3 ada.streams%s
+D a-tags.ads		20140730140058 dc4d0634 ada.tags%s
+D a-textio.ads		20140717063745 386df5d4 ada.text_io%s
+D a-unccon.ads		20070406091342 f9eb8f06 ada.unchecked_conversion%s
+D calculadora.adb	20170312173330 bc60e851 calculadora%b
+D dstack.ads		20170312114342 5022e2d0 dstack%s
+D dstack.adb		20170312065853 f02037a6 dstack%b
+D interfac.ads		20141120112812 6033a23f interfaces%s
+D i-cstrea.ads		20140801100435 e53d8b8e interfaces.c_streams%s
+D system.ads		20141031112219 1d274481 system%s
+D s-conca2.ads		20140225151544 02a0d7d0 system.concat_2%s
+D s-crtl.ads		20141120112812 0ebbdb71 system.crtl%s
+D s-exctab.ads		20140225151139 54135002 system.exception_table%s
+D s-expint.ads		20140801083227 192336fc system.exp_int%s
+D s-ficobl.ads		20140718105747 078245e4 system.file_control_block%s
+D s-imgint.ads		20090409150019 02dbe0c2 system.img_int%s
+D s-parame.ads		20140801093848 7e2a0d7f system.parameters%s
+D s-secsta.ads		20140225151139 86a2856d system.secondary_stack%s
+D s-soflin.ads		20140801100131 aa763b52 system.soft_links%s
+D s-stache.ads		20140225151139 a37c21ec system.stack_checking%s
+D s-stalib.ads		20150220094550 fa0a3617 system.standard_library%s
+D s-stoele.ads		20140225151139 2dc34a04 system.storage_elements%s
+D s-traent.ads		20140730135025 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20140731130224 9d58a4c0 system.unsigned_types%s
+D s-valint.ads		20090409150019 48a52a3f system.val_int%s
+D s-wchcon.ads		20140718092328 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 19e8 9|1r6 1r24 2r5 2r23
+X 2 a-comlin.ads
+38K13*Command_Line 139e21 9|1w10 2r9
+41V13*Argument_Count{natural} 9|65s12 70s25
+48V13*Argument{string} 9|72s31 89s55 91s50
+X 7 a-textio.ads
+49K13*Text_IO 471e16 9|1w28 2r27
+263U14*Put_Line 9|66s17 96s9
+X 9 calculadora.adb
+6U11*calculadora 6b11 97l5 97t16
+9K17 stackInteger[10|3] 10r13
+13V18 isOperator{boolean} 13b18 13>29 27l13 27t23 72s20
+13a29 text{string} 20r28
+14A22 type_operators(string)<integer> 15r29
+15a17 operators{14A22} 18r26 20r35
+18i21 i{integer} 20r45
+30V18 calculateOperation{integer} 30b18 30>37 30>56 30>74 55l13 55t31 89s36
+30a37 operation{string} 37r28
+30i56 leftNum{integer} 40r48 42r49 44r48 46r48 48r48
+30i74 rightNum{integer} 40r58 42r59 44r58 46r58 48r59
+31A22 type_operators(string)<integer> 32r29
+32a17 operators{31A22} 36r26 37r40 39r36 41r39 43r39 45r39 47r39
+36i21 i{integer} 37r50 39r46 41r49 43r49 45r49 47r49
+58r9 pila{10|4R14[9]} 69m15 74r41 75r49 76m37 76r37 81r41 82r48 83m37 83r37
+. 89m30 89r30 91m30 91r30 96r33
+59i9 leftNum{integer} 82m33 89r70
+60i9 rightNum{integer} 75m33 89r79
+62X9 errorEmptyStack 78r39 85r39
+70i13 Arg{integer} 72r40 89r64 91r59
+X 10 dstack.ads
+2i9 max{integer} 9|9r44
+3k9*dstack 9|4w6 9r37 10|21e11
+4R14 stack 9|58r15[9]
+9U19 empty 9|69s9[9]
+10U19 push 9|89s25[9] 91s25[9]
+11U19 pop 9|76s33[9] 83s33[9]
+12V18 top{integer} 9|75s45[9] 82s44[9] 96s29[9]
+13V18 is_empty{boolean} 9|74s32[9] 81s32[9]
+

@@ -1,0 +1,94 @@
+V "GNAT Lib v5"
+P ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_IO
+RV NO_LOCAL_ALLOCATORS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV SPARK_05
+
+U llista%b		llista.adb		78f9c8ef NE OO PK GE IL
+
+U llista%s		llista.ads		b0db3bb7 BN EE NE OO PK GE IL
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+D ada.ads		20070406091342 3ffc8e18 ada%s
+D a-except.ads		20140730140058 5250cb69 ada.exceptions%s
+D a-ioexce.ads		20140225151544 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20141120112812 119b8fb3 ada.streams%s
+D a-tags.ads		20140730140058 dc4d0634 ada.tags%s
+D a-textio.ads		20140717063745 386df5d4 ada.text_io%s
+D a-unccon.ads		20070406091342 f9eb8f06 ada.unchecked_conversion%s
+D interfac.ads		20141120112812 6033a23f interfaces%s
+D i-cstrea.ads		20140801100435 e53d8b8e interfaces.c_streams%s
+D llista.ads		20170312180515 88b6ce63 llista%s
+D llista.adb		20170312180458 f04f068c llista%b
+D system.ads		20141031112219 1d274481 system%s
+D s-crtl.ads		20141120112812 0ebbdb71 system.crtl%s
+D s-exctab.ads		20140225151139 54135002 system.exception_table%s
+D s-ficobl.ads		20140718105747 078245e4 system.file_control_block%s
+D s-parame.ads		20140801093848 7e2a0d7f system.parameters%s
+D s-soflin.ads		20140801100131 aa763b52 system.soft_links%s
+D s-stache.ads		20140225151139 a37c21ec system.stack_checking%s
+D s-stalib.ads		20150220094550 fa0a3617 system.standard_library%s
+D s-stoele.ads		20140225151139 2dc34a04 system.storage_elements%s
+D s-traent.ads		20140730135025 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20140731130224 9d58a4c0 system.unsigned_types%s
+D s-wchcon.ads		20140718092328 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 19e8 10|1r6 2r5
+X 6 a-textio.ads
+49K13*Text_IO 471e16 10|1w10 2r9
+X 10 llista.ads
+5+14 item 6r42 7r42 8r42 14r48 16r51 19r63 30r20 11|5r48 12r51 102r63 105r20
+6V24 "<"{boolean} 6>27 6>34 11|18s32
+6*27 first{5+14}
+6*34 second{5+14}
+7V24 "="{boolean} 7>27 7>34 11|40s35
+7*27 first{5+14}
+7*34 second{5+14}
+8V24 ">"{boolean} 8>27 8>34
+8*27 first{5+14}
+8*34 second{5+14}
+10k9*llista 5z14 6z24 7z24 8z24 25E14 40l5 40e11 11|2b14 139l5 139t11
+11R14*list 14r36 16r39 19r33 21r33 35c14 38e19 11|5r36 12r39 102r33 123r33
+14U19*insert 14=26 14>42 11|5b19 10l13 10t19
+14r26 l{11R14} 11|5b26 8r34 9m17
+14*42 x{5+14} 11|5b42 8r31
+16U19*dis_order 16=29 16>45 11|12b19 99l13 99t22
+16r29 l{11R14} 11|12b29 16r21 21m41 45m49 76m49
+16*45 x{5+14} 11|12b45 18r34 40r37
+19V18*get_item{5+14} 19>27 19>39 11|102b18 120l13 120t21
+19r27 l{11R14} 11|102b27 108r21
+19i39 pos{integer} 11|102b39 107r25
+21V18*get_size{integer} 21>27 11|123b18 136l13 136t21
+21r27 l{11R14} 11|123b27 128r21
+25R14 node 26r30 28c14 32e19 11|8r25
+26P14 pnode(25R14) 31r23 37r24 11|6r12 13r46 104r20 125r20
+30*17 x{5+14} 11|18r30 40r33 115r34
+31p17 next{26P14} 11|22r47 23m45 26m53 30m45 31r47 32r51 33m45 36m53 49r47
+. 50m45 53m53 57m53 61m45 62r47 63r51 64m45 67m53 81r47 82m45 86m53 90m46
+. 91r47 92r53 93m46 111r31 131r31
+37p17 first{26P14} 11|8r36 9m19 16r23 21m43 45m51 76m51 108r23 128r23
+X 11 llista.adb
+6p9 r{10|26P14} 8m17 9r27
+13p17 fmp{10|26P14} 19r36 20m41 23r41 26r49 30r41 32m41 32r47 33r41 36r49
+. 44r44 56r44 57r49 75r44
+13p22 iip{10|26P14} 25r44 26r60 35r44 36r60 42r36 47m41 57r60 75r59
+13p27 fip{10|26P14} 48m41 50r41 53r49 61r41 63m41 63r47 64r41 67r49 85r44
+. 86r49
+13p32 imp{10|26P14} 52r44 53r60 66r44 67r60 74r36 80m41 82r41 86r60
+13p37 ffmp{10|26P14} 79m41 90r41 92m41 92r48 93r41
+13p43 p{10|26P14} 16m17 17r23 18r28 20r47 21r51 22m41 22r45 30r52 31m41 31r45
+. 40r31 45r59 47r47 48r47 49m41 49r45 61r52 62m41 62r45 76r59 79r48 80r47
+. 81m41 81r45 90r53 91m41 91r45
+103i17 index{integer} 107m17 109r42 110m25 110r33
+104p17 p{10|26P14} 108m17 109r23 111m25 111r29 114r20 115r32
+105*17 i{10|5+14} 117r32
+124i17 size{integer} 127m17 130m25 130r32 134r24
+125p17 p{10|26P14} 128m17 129r23 131m25 131r29
+
