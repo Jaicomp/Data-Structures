@@ -1,0 +1,63 @@
+V "GNAT Lib v5"
+P ZX
+
+RN
+RV NO_IO
+RV SPARK_05
+
+U dbinarytree%b		dbinarytree.adb		56295381 NE OO PK GE IL
+
+U dbinarytree%s		dbinarytree.ads		8b2cb814 BN EE NE OO PK GE
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+D ada.ads		20070406091342 3ffc8e18 ada%s
+D a-except.ads		20140730140058 5250cb69 ada.exceptions%s
+D a-ioexce.ads		20140225151544 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20141120112812 119b8fb3 ada.streams%s
+D a-tags.ads		20140730140058 dc4d0634 ada.tags%s
+D a-textio.ads		20140717063745 386df5d4 ada.text_io%s
+D a-unccon.ads		20070406091342 f9eb8f06 ada.unchecked_conversion%s
+D dbinarytree.ads	20170313102443 b3414dc0 dbinarytree%s
+D dbinarytree.adb	20170313102546 e5681e41 dbinarytree%b
+D interfac.ads		20141120112812 6033a23f interfaces%s
+D i-cstrea.ads		20140801100435 e53d8b8e interfaces.c_streams%s
+D system.ads		20141031112219 1d274481 system%s
+D s-crtl.ads		20141120112812 0ebbdb71 system.crtl%s
+D s-exctab.ads		20140225151139 54135002 system.exception_table%s
+D s-ficobl.ads		20140718105747 078245e4 system.file_control_block%s
+D s-parame.ads		20140801093848 7e2a0d7f system.parameters%s
+D s-soflin.ads		20140801100131 aa763b52 system.soft_links%s
+D s-stache.ads		20140225151139 a37c21ec system.stack_checking%s
+D s-stalib.ads		20150220094550 fa0a3617 system.standard_library%s
+D s-stoele.ads		20140225151139 2dc34a04 system.storage_elements%s
+D s-traent.ads		20140730135025 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20140731130224 9d58a4c0 system.unsigned_types%s
+D s-wchcon.ads		20140718092328 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 19e8 8|1r6 2r5
+X 6 a-textio.ads
+49K13*Text_IO 471e16 8|1w10 2r9
+263U14*Put_Line 9|9s25
+X 8 dbinarytree.ads
+5+14 item 6r21 8r36 8r49 9r35 14r56 15r56 22r61 9|6r56 12r56
+6*9 first_item{5+14}
+7i9 len{integer} 20r60
+8V24 "+"{5+14} 8>27 8>30
+8*27 a{5+14}
+8*30 b{5+14}
+9V23 Image{string} 9>29
+9*29 a{5+14}
+11k17*dbinarytree 5z14 6z9 7z9 8z24 9z23 20E33 30l5 30e16 9|3b14 18l5 18t16
+13R22*tree 14r44 15r44 24c30 29e35 9|6r44 12r44
+14U27*insert 14=34 14>50 9|6b27 10l21 10t27
+14r34 t{13R22} 9|6b34
+14*50 x{5+14} 9|6b50
+15V26*is_path_sum{boolean} 15>38 15>50 9|12b26 15l21 15t32
+15r38 t{13R22} 9|12b38
+15*50 x{5+14} 9|12b50
+20I33 drange{integer} 22r50 27r39 27r49
+22A30 mem_space(5+14)<integer> 26r37
+26a33 ms{22A30}
+27i33 free{20I33}
+

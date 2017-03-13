@@ -1,0 +1,62 @@
+V "GNAT Lib v5"
+M P W=b
+P SS ZX
+
+RN
+RV NO_IO
+RV NO_SECONDARY_STACK
+RV NO_DEFAULT_INITIALIZATION
+RV SPARK_05
+
+U main%b		main.adb		e53c279d NE OO SU IL
+Z ada%s			ada.ads			ada.ali
+Z ada.text_io%s		a-textio.adb		a-textio.ali
+W dbinarytree%s		dbinarytree.adb		dbinarytree.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W text_io%s		text_io.ads		text_io.ali
+
+D ada.ads		20070406091342 3ffc8e18 ada%s
+D a-except.ads		20140730140058 5250cb69 ada.exceptions%s
+D a-ioexce.ads		20140225151544 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20141120112812 119b8fb3 ada.streams%s
+D a-tags.ads		20140730140058 dc4d0634 ada.tags%s
+D a-textio.ads		20140717063745 386df5d4 ada.text_io%s
+D a-unccon.ads		20070406091342 f9eb8f06 ada.unchecked_conversion%s
+D dbinarytree.ads	20170313102443 b3414dc0 dbinarytree%s
+D dbinarytree.adb	20170313102546 e5681e41 dbinarytree%b
+D interfac.ads		20141120112812 6033a23f interfaces%s
+D i-cstrea.ads		20140801100435 e53d8b8e interfaces.c_streams%s
+D main.adb		20170313102317 13ab4c94 main%b
+D system.ads		20141031112219 1d274481 system%s
+D s-crtl.ads		20141120112812 0ebbdb71 system.crtl%s
+D s-exctab.ads		20140225151139 54135002 system.exception_table%s
+D s-ficobl.ads		20140718105747 078245e4 system.file_control_block%s
+D s-imgint.ads		20090409150019 02dbe0c2 system.img_int%s
+D s-parame.ads		20140801093848 7e2a0d7f system.parameters%s
+D s-secsta.ads		20140225151139 86a2856d system.secondary_stack%s
+D s-soflin.ads		20140801100131 aa763b52 system.soft_links%s
+D s-stache.ads		20140225151139 a37c21ec system.stack_checking%s
+D s-stalib.ads		20150220094550 fa0a3617 system.standard_library%s
+D s-stoele.ads		20140225151139 2dc34a04 system.storage_elements%s
+D s-traent.ads		20140730135025 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20140731130224 9d58a4c0 system.unsigned_types%s
+D s-wchcon.ads		20140718092328 1b7d22d2 system.wch_con%s
+D text_io.ads		20070406091342 45d626c9 text_io%s
+X 6 a-textio.ads
+263U14*Put_Line 12|16s9
+X 8 dbinarytree.ads
+5+14 item 12|8r54
+6*9 first_item{5+14} 12|8r71
+7i9 len{integer} 12|8r88
+8V24 "+"{5+14} 12|8r99
+9V23 Image{string} 12|8r110
+11k17*dbinarytree 30e16 12|4w6 8r42
+13R22 tree 12|11r13[8]
+X 12 main.adb
+6U11*main 6b11 20l5 20t9
+8K17 binaryTreeInteger[8|11] 9r13
+11r9 tr{8|13R22[8]}
+X 27 text_io.ads
+24K9*Text_IO=24:29 12|1w6 2r5
+
